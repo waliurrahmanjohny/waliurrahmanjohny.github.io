@@ -52,4 +52,3 @@ When I’m not optimizing stores or automating customer journeys, you’ll find 
 
 Feel free to [reach out](#) if you're launching a store, refining your post-purchase experience, or just want to talk e-commerce strategy. I collaborate with founders who care as much about **customer lifetime value** as they do about conversion rates.
 
-*P.S. You can also find me on [Reddit’s r/ecommerce](https://www.reddit.com/r/ecommerce/)—where I occasionally share honest takes on dropshipping, support automation, and ethical scaling.*
