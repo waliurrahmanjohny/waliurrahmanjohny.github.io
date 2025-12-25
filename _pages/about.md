@@ -9,7 +9,7 @@ profile:
   image: johny.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Co-Founder & Executive Director</p>
+    <p>Co-Founder & Director</p>
     <p>Maple BPO</p>
     <p>Rajshahi, Bangladesh</p>
 
