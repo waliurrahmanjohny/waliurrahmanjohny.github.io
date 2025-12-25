@@ -9,8 +9,8 @@ profile:
   image: johny.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>9th Floor</p>
-    <p>Padma Abashik Road 10</p>
+    <p>Co-Founder & Executive Director</p>
+    <p>Maple BPO</p>
     <p>Rajshahi, Bangladesh</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
