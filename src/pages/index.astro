@@ -1,0 +1,184 @@
+---
+import '../styles/global.css';
+
+const title = 'Waliur Rahman Johny';
+const description =
+  'E-commerce strategist and customer experience specialist. Co-Founder at Maple BPO, Rajshahi, Bangladesh.';
+---
+
+<!doctype html>
+<html lang="en" class="bg-ink-950 text-stone-300">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#0c0a09" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen bg-grid-fade font-sans text-[15px] leading-relaxed md:text-base">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-amber-500 focus:px-3 focus:py-2 focus:text-ink-950"
+      >Skip to content</a
+    >
+
+    <header class="border-b border-stone-800/80 bg-ink-950/80 backdrop-blur-md">
+      <div class="mx-auto flex max-w-3xl items-center justify-between px-5 py-4 md:px-8">
+        <span class="font-display text-lg font-semibold tracking-tight text-stone-100">{title}</span>
+        <nav aria-label="On this page" class="flex gap-5 text-sm text-stone-400">
+          <a href="#about" class="transition hover:text-amber-400">About</a>
+          <a href="#contact" class="transition hover:text-amber-400">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="mx-auto max-w-3xl px-5 pb-24 pt-12 md:px-8 md:pt-16">
+      <section class="mb-16 md:mb-20" aria-labelledby="hero-heading">
+        <div class="flex flex-col gap-10 md:flex-row md:items-start md:gap-12">
+          <div class="order-2 flex-1 md:order-1">
+            <p class="mb-2 font-display text-sm font-medium uppercase tracking-[0.2em] text-amber-500/90">
+              Co-Founder · Maple BPO
+            </p>
+            <h1 id="hero-heading" class="font-display text-3xl font-semibold tracking-tight text-stone-50 md:text-4xl">
+              Strategy, operations, and support that scale with your store.
+            </h1>
+            <p class="mt-4 text-stone-400">Rajshahi, Bangladesh</p>
+          </div>
+          <div class="order-1 shrink-0 md:order-2">
+            <div
+              class="relative mx-auto w-44 overflow-hidden rounded-2xl border border-stone-700/60 shadow-2xl shadow-black/40 ring-1 ring-white/5 md:w-52"
+            >
+              <img
+                src="/johny.jpg"
+                alt="Portrait of Waliur Rahman Johny"
+                width="416"
+                height="520"
+                class="aspect-[4/5] w-full object-cover"
+                loading="eager"
+                fetchpriority="high"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="space-y-8" aria-labelledby="about-heading">
+        <h2 id="about-heading" class="sr-only">About</h2>
+        <div class="space-y-5 text-stone-300 [&_strong]:font-semibold [&_strong]:text-stone-100">
+          <p>
+            I’m a passionate e-commerce strategist and customer experience specialist with over 7 years of experience
+            helping online businesses scale efficiently—without sacrificing trust or service quality.
+          </p>
+          <p>
+            My work sits at the intersection of <strong>technology, operations, and human-centered support</strong>.
+            I’ve partnered with startups and established brands to streamline their Shopify stores, optimize fulfillment
+            workflows, reduce refund rates, and build self-serve support systems that turn one-time buyers into loyal
+            advocates.
+          </p>
+          <p>
+            Originally trained in English and communication, I combine analytical rigor with empathetic problem-solving—because
+            the best e-commerce experiences aren’t just fast or cheap; they’re <strong>clear, reliable, and respectful</strong>.
+          </p>
+          <p>
+            When I’m not optimizing stores or automating customer journeys, you’ll find me contributing to open-source
+            tools, exploring UI/UX trends, or sharing insights on building sustainable online businesses.
+          </p>
+        </div>
+
+        <figure class="rounded-xl border border-stone-800 bg-stone-900/40 px-6 py-8 md:px-8">
+          <blockquote class="font-display text-lg font-medium leading-snug text-stone-100 md:text-xl">
+            “Quality and client trust are the ultimate metrics of success.”
+          </blockquote>
+          <figcaption class="mt-4 text-sm text-stone-500">
+            This principle has guided every project I’ve taken on—and every relationship I’ve built.
+          </figcaption>
+        </figure>
+
+        <p class="text-stone-400">
+          If you’re launching a store, refining your post-purchase experience, or want to talk e-commerce strategy, get
+          in touch below. I collaborate with founders who care as much about <strong class="text-stone-200"
+            >customer lifetime value</strong
+          > as they do about conversion rates.
+        </p>
+      </section>
+
+      <section
+        id="contact"
+        class="mt-16 border-t border-stone-800/80 pt-12"
+        aria-labelledby="contact-heading"
+      >
+        <h2 id="contact-heading" class="font-display text-xl font-semibold text-stone-50">Contact</h2>
+        <p class="mt-2 max-w-lg text-stone-500">Email or LinkedIn is usually the fastest way to reach me.</p>
+        <ul class="mt-8 flex flex-wrap gap-3" role="list">
+          <li>
+            <a
+              href="mailto:johnyssbd@gmail.com"
+              class="inline-flex items-center gap-2 rounded-full border border-stone-700 bg-stone-900/50 px-4 py-2.5 text-sm font-medium text-stone-200 transition hover:border-amber-600/50 hover:bg-stone-800/80 hover:text-amber-100"
+              aria-label="Email"
+            >
+              <svg class="h-4 w-4 text-amber-500" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
+                ></path>
+              </svg>
+              Email
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/thewaliur/"
+              class="inline-flex items-center gap-2 rounded-full border border-stone-700 bg-stone-900/50 px-4 py-2.5 text-sm font-medium text-stone-200 transition hover:border-amber-600/50 hover:bg-stone-800/80 hover:text-amber-100"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn profile"
+            >
+              <svg class="h-4 w-4 text-amber-500" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                ></path>
+              </svg>
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.fiverr.com/johnydropshiper/"
+              class="inline-flex items-center gap-2 rounded-full border border-stone-700 bg-stone-900/50 px-4 py-2.5 text-sm font-medium text-stone-200 transition hover:border-amber-600/50 hover:bg-stone-800/80 hover:text-amber-100"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Fiverr profile"
+            >
+              <svg
+                class="h-4 w-4 text-amber-500"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"></path>
+              </svg>
+              Fiverr
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="border-t border-stone-800/80 py-8 text-center text-xs text-stone-600">
+      <p>
+        © {new Date().getFullYear()} {title} ·
+        <a href="https://pages.github.com/" class="text-stone-500 hover:text-amber-500/80" target="_blank" rel="noopener"
+          >GitHub Pages</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
